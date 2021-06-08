@@ -21,36 +21,13 @@ body {
 .navbar .navbar-button {
     margin: auto 10px;
     font-size: 20px;
+    border: solid 1px #ffffff;
+    padding: 10px;
 }
 
 .navbar .navbar-button:hover {
     cursor: pointer;
-}
-
-.container {
-    display: flex;
-}
-
-.container .social {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 25px;
-    text-align: center;
-}
-
-.container .social i {
-    font-size: 32px;
-    color: #ffffff;
-}
-
-.container .main {
-    flex: 7;
-}
-
-.container .main img {
-    width: 100%;
-    max-width: 1000px;
-    margin-left: 150px;
+    background-color: #ffffff;
+    color: #000000;
+    
 }
