@@ -1,0 +1,13 @@
+body{
+    background-color: teal;
+}
+
+li{
+    display: inline-block;
+}
+
+a{ 
+    padding:25px;
+    background-color:Yellow;
+}
+

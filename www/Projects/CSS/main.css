@@ -1,0 +1,45 @@
+body{
+    background-color:black;
+    font-size:26px;
+    color:white;
+    font-family:sans-serif;
+}
+
+
+p{
+    text-align:center;
+    font-size:18px;
+}
+
+div{
+    text-align:justify;
+    font-size:22px;
+    width:600px;
+}
+
+.paragraph1{
+    text-align:center;
+    font-size:18px;
+}
+
+h1{
+    text-align: center;
+    font-size:26px;
+    color:blue;
+}
+
+#h1id{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.tamanhoXL{
+    font-size:26px;
+}
+
+
+#Centro{
+    text-align:center;
+}
+ 

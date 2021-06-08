@@ -1,0 +1,27 @@
+.mother {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.preview img {
+    width: 200px;
+    height: 130px;
+}
+
+.preview p {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 0px;
+    border: 1px solid black;
+    border-top: none;
+    width: 198px;
+}

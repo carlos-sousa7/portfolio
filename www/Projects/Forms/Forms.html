@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1 align ="center">Comentários</h1>
+    <form method="POST" action="mailto:carlos.sousa93@hotmailcom">
+    <table border ="1" align ="center">
+       <tr>
+        <td>Nome:</td>
+        <td><input type="text" name="nome" maxlength="80"></td>
+       </tr>
+       <tr>
+        <td>Email:</td>
+        <td><input type="text" name="email" maxlength="50"></td>
+       </tr>
+       <tr>
+        <td>Assunto:</td>
+        <td><Select name="assunto">
+       
+            <option value="Sugestões">Sugestões</option>
+       
+            <option value="Reclamações">Reclamações</option>
+       
+            <option value="Pedidos">Pedidos</option>
+       
+            <option value="Encomendas">Encomendas</option>
+       
+            </Select></td>
+       </tr>
+       <tr>
+        <td>Mensagem:</td>
+        <td><textarea name="mensagem" row="5" maxlength="100"></textarea></td>
+       </tr>
+       <tr>
+        <td>Password:</td>
+        <td><input type="password" name="password" maxlength="20"></td>
+       </tr>
+       <tr>
+        <td colspan="2" align ="center">
+        <input type="submit" value="OK">
+        <input type="reset" value="Limpar">
+        </td>
+       </tr>
+    </table>
+    </form>
+</body>
+</html>

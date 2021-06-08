@@ -1,0 +1,16 @@
+.nav1, .circle2, .background{
+    background-color: #00FF63;
+}
+
+.nav2{
+    justify-content: flex-end;
+}
+
+.circle1, .circle2{
+    background-color: #4F00FF;
+}
+
+.hola{
+    font-size: 7.5rem;
+}
+

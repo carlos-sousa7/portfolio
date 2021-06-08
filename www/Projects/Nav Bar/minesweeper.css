@@ -1,0 +1,41 @@
+body{
+    background-color:grey;
+}
+
+div{
+    height:364px ;
+    width: 364px;
+    border: 1px solid black;
+}
+
+.div_class1{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: auto;
+}
+
+a:link > div{
+    background-color:black;
+}
+
+a:visited > div{
+    background-color:purple;
+}
+
+a:hover > div{
+    background-color:green;
+    cursor:progress;
+}
+
+a:active > div{
+    background-color:red;
+}
+
+
+nav li{
+    padding:25px;
+    background-color:pink;
+    display:inline-block;
+}

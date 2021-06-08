@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms2</title>
+</head>
+<body>
+    <h1 align ="center">Inscrição</h1>
+    <form method="POST" action="mailto:carlos.sousa93@hotmail.com">
+    <table border ="1" align ="center">
+        <tr>
+        <td>Nome:</td>
+        <td><input type="text" name="nome" maxlength="80" size="80"></td>
+        </tr>
+        <tr>
+        <td>Mail:</td>
+        <td><input type="text" name="mail" maxlength="30" size="30"></td>
+        </tr>
+        <tr>
+        <td>Password:</td>
+        <td><input type="password" name="password" maxlength="20" size="20"></td>
+        </tr>
+        <tr>
+        <td>Sexo:</td>
+        <td><input type="radio" name="genero" value="masc"> Masculino
+            <br>
+            <input type="radio" name="genero" value="fem"> Feminino  </td>
+        </tr>
+        <tr>
+            <td>Morada</td>
+            <td><input type="text" name="morada" maxlength="100" size="100"></td>
+        </tr>
+        <tr>
+            <td>CPostal:</td>
+            <td><input type="number" name="cpostal" maxlength="50" size="50" ></td>
+        </tr>
+        <tr>
+            <td>Interesses</td>
+            <td><input type="checkbox" name ="Programação">Programação
+                <br>
+            <input type="checkbox" name ="Webdesign">Webdesign
+                <br>
+            <input type="checkbox" name ="Imagem">Imagem
+                <br>
+            <input type="checkbox" name ="Video">Video</td>
+        </tr>
+        <tr>
+            <td>Tipo:</td>
+            <td><select name="Tipo">
+                <option value="Formando">Formando</option>
+                <option value="Coordenador">Coordenador</option>
+                <option value="Mediador">Mediador</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Sobre:</td>
+            <td> <textarea name="sobre" rows="4" maxlength="90"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="3" align ="center"><input type="submit" value="OK">
+                <input type="reset" value="Limpar">
+                <input type="button" value="Criador" onclick="javascript:window.alert('Carlos Sousa');">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
