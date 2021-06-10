@@ -1,10 +1,21 @@
 .mother {
+    flex: 11;
     margin: 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 1rem;
+    text-align: center;
+}
+
+.mother span {
+    font-family: "Rokkitt", serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.mother .projects {
+    display: grid;
+    grid-gap: 120px;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    margin-top: 5%;
 }
 
 .preview {
@@ -22,7 +33,14 @@
     background-color: rgba(255, 255, 255, 1);
     color: black;
     margin: 0px;
-    border: 1px solid black;
-    border-top: none;
+    border-top: 1px solid black;
     width: 200px;
+    font-family: "Rokkitt", serif;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+    .mother .projects {
+        grid-template-columns: repeat(2, 200px);
+    }
 }

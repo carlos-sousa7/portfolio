@@ -1,7 +1,5 @@
 <html>
 
-
-
 <head>
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css">
@@ -11,50 +9,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
 </head>
 
-
-
-
-
 <body>
-    <div class="mother">
+
+    <div class="navbar">
+        <span class="active" onclick="window.location.href = 'index.html';"> <img src="/pictures/face.png " width="32 " height="32 "> Carlos Sousa</span>
+        <div class="navbar-button " onclick="window.location.href='about.html' ; ">About</div>
+        <div class="navbar-button active " onclick="window.location.href='portfolio.html' ; ">Portfolio</div>
+        <div class="navbar-button " onclick="window.location.href='contacts.html' ; ">Contacts</div>
+
+    </div>
+
+    <div class="mother ">
+        <span>What I Div</span>
+        <div class="projects ">
+            <div class="preview " onclick="window.open( 'Projects/Article/Article.html', '_blank'); ">
+                <img src="Projects/Article/thumbnail.png ">
+                <p>Article</p>
+            </div>
+            <div class="preview " onclick="window.open( 'Projects/Flex/Flex.html', '_blank'); ">
+                <img src="Projects/Flex/thumbnail.png ">
+                <p>Flex</p>
+            </div>
+            <div class="preview " onclick="window.open( 'Projects/Forms/Forms.html', '_blank'); ">
+                <img src="Projects/Forms/thumbnail.png ">
+                <p>Forms</p>
+            </div>
+            <div class="preview " onclick="window.open( 'Projects/forum/registo.html', '_blank'); ">
+                <img src="Projects/forum/thumbnail.png ">
+                <p>Forum</p>
+            </div>
+            <div class="preview " onclick="window.open( 'Projects/Nav Bar/minesweeper.html', '_blank'); ">
+                <img src="Projects/Nav Bar/thumbnail.png ">
+                <p>Nav Bar</p>
+            </div>
+            <div class="preview " onclick="window.open( 'Projects/Surf/Surf.html', '_blank'); ">
+                <img src="Projects/Surf/thumbnail.png ">
+                <p>Surf</p>
+            </div>
+            <div class="preview " onclick="window.open( 'Projects/Taco/TacoShop.html', '_blank'); ">
+                <img src="Projects/Taco/thumbnail.png ">
+                <p>Taco Shop</p>
+            </div>
+            <div class="preview " onclick="window.open( 'Projects/CSS/CSS.html', '_blank'); ">
+                <img src="Projects/CSS/thumbnail.png ">
+                <p>CSS</p>
+            </div>
+            <!-- These multiple div's are within the div class mother and host some of my work -->
+            <!-- window.open is a statement which redirects to the specified page, '_blank' being the target to open in a new tab -->
+        </div>
+
         <!-- Main div that will host my projects -->
-        <div class="preview" onclick="window.location.href = 'Projects/Article/Article.html';">
-            <img src="Projects/Article/thumbnail.png">
-            <p>Article</p>
-        </div>
-        <div class="preview" onclick="window.location.href = 'Projects/Flex/Flex.html';">
-            <img src="Projects/Flex/thumbnail.png">
-            <p>Flex</p>
-        </div>
-        <div class="preview" onclick="window.location.href = 'Projects/Forms/Forms.html';">
-            <img src="Projects/Forms/thumbnail.png">
-            <p>Forms</p>
-        </div>
-        <div class="preview" onclick="window.location.href = 'Projects/forum/Registo.html';">
-            <img src="Projects/forum/thumbnail.png">
-            <p>Forum</p>
-        </div>
-        <div class="preview" onclick="window.location.href = 'Projects/Nav Bar/minesweeper.html';">
-            <img src="Projects/Nav Bar/thumbnail.png">
-            <p>Nav Bar</p>
-        </div>
-        <div class="preview" onclick="window.location.href = 'Projects/Surf/Surf.html';">
-            <img src="Projects/Surf/thumbnail.png">
-            <p>Surf</p>
-        </div>
-        <div class="preview" onclick="window.location.href = 'Projects/Taco/TacoShop.html';">
-            <img src="Projects/Taco/thumbnail.png">
-            <p>Taco Shop</p>
-        </div>
-        <div class="preview" onclick="window.location.href = 'Projects/CSS/CSS.html';">
-            <img src="Projects/CSS/thumbnail.png">
-            <p>CSS</p>
-        </div>
-        <!-- These multiple div's are within the div class mother and host some of my work -->
-        <div class="main">
-            <img src="pictures/main-picture.png" \>
-            <!-- Div containing main body image portrait -->
-        </div>
+
     </div>
 
 </body>

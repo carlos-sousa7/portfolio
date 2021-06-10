@@ -25,12 +25,21 @@ body {
     font-size: 28px;
 }
 
+.navbar span.active:hover {
+    cursor: pointer;
+}
+
 .navbar .navbar-button {
     margin: auto 10px;
     font-size: 20px;
     border: solid 1px #ffffff;
     padding: 10px;
     border-radius: 10%;
+}
+
+.navbar .navbar-button.active {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .navbar .navbar-button:hover {
