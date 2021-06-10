@@ -1,0 +1,31 @@
+.mother {
+    flex: 11;
+    display: flex;
+}
+
+.mother div {
+    flex: 1;
+    padding: 40px;
+}
+
+.mother .left span {
+    font-family: "Rokkitt", serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.mother .left p {
+    font-family: "Rokkitt", serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.mother .right {
+    text-align: center;
+}
+
+@media only screen and (max-width: 980px) {
+    .mother {
+        flex-direction: column;
+    }
+}
