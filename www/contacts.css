@@ -1,0 +1,24 @@
+.maindiv {
+    flex: 11;
+    display: flex;
+}
+
+.maindiv .social {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    text-align: center;
+}
+
+.maindiv .social a i {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.maindiv span {
+    font-family: "Rokkitt", serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 50px;
+}
