@@ -1,24 +1,62 @@
-.maindiv {
+.mainDiv {
     flex: 11;
     display: flex;
 }
 
-.maindiv .social {
+.mainDiv .left {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
-    gap: 25px;
-    text-align: center;
+    flex-direction: column;
+    margin-left: 35px;
 }
 
-.maindiv .social a i {
+.mainDiv .left .social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mainDiv .left .social a i {
     font-size: 32px;
     color: #ffffff;
 }
 
-.maindiv span {
+.mainDiv .left span {
     font-family: "Rokkitt", serif;
     font-size: 40px;
     text-decoration: underline;
-    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.mainDiv .left .boat img {
+    width: 80%;
+}
+
+.mainDiv .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.mainDiv .right span {
+    font-size: 64px;
+}
+
+@media only screen and (max-width: 980px) {
+    .mainDiv {
+        flex-direction: column;
+    }
+    .mainDiv .left .boat img {
+        margin-left: 10%;
+    }
+    .mainDiv .left .social {
+        justify-content: space-evenly;
+    }
+    .mainDiv .left .social a i {
+        font-size: 64px;
+    }
 }
