@@ -12,49 +12,70 @@ body {
 }
 
 .navbar {
-    flex: 1;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
     font-family: "Rokkitt", serif;
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px 20px;
-}
-
-.navbar span {
-    margin: auto;
-    margin-left: 20px;
-    font-size: 28px;
-}
-
-.navbar span.active:hover {
-    cursor: pointer;
-}
-
-.navbar .navbar-button {
-    margin: auto 10px;
     font-size: 20px;
+    color: #ffffff;
+}
+
+.navbar .home {
+    float: left;
+    display:table;
+    padding-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .home img{
+    display:table-cell;
+    vertical-align:middle;
+    width: 32px;
+    height: 32px;
+}
+
+.navbar .home span{ 
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.navbar nav {
+    float: right;
+}
+
+.navbar nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+.navbar nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
     border: solid 1px #ffffff;
-    padding: 10px;
     border-radius: 10%;
-    text-align: center;
+    padding: 10px;
+    
 }
-
-.navbar .navbar-button.active {
+.navbar nav ul li a:hover, .navbar nav ul li a.active{
     background-color: #ffffff;
     color: #000000;
 }
 
-.navbar .navbar-button:hover {
-    cursor: pointer;
-    background-color: #ffffff;
-    color: #000000;
-}
-
-@media only screen and (max-width: 980px) {
-    .navbar span {
-        font-size: 50px;
-    }
-    .navbar .navbar-button {
+@media only screen and (max-width: 980px){
+    .navbar{
         font-size: 40px;
-        margin: auto 15px;
+    }
+
+    .navbar .home img{
+        width: 48;
+        height: 48;
     }
 }

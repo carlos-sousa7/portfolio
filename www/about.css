@@ -1,5 +1,6 @@
 .mother {
-    flex: 11;
+    flex: 1;
+    padding-top: 25px;
     display: flex;
 }
 
